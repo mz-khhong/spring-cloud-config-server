@@ -3,19 +3,10 @@ config-server:
 spring:
   profile: local
   datasource:
-    url: http://localhost:3306
+    url: http://localhost:3305/localDb
     username: hong
     password: 1234
 
 message:
   profile: local
-  server-name: "hello world"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    shutdown:
-      enabled: true
+  server-name: "[local] hello world"

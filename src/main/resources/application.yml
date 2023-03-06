@@ -7,6 +7,21 @@ spring:
         git:
           uri: https://github.com/mz-khhong/spring-cloud-config-server.git
           default-label: master
+#          ignore-local-ssh-settings: false
+#          private-key: |
+#            -----BEGIN EC PRIVATE KEY-----
+#            -----END EC PRIVATE KEY-----
+#          host-key: AA..
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
 
 server:
   port: 8090
