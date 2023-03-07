@@ -8,5 +8,5 @@ spring:
     password: 1234
 message:
   profile: dev
-  server-name: [dev] hello world ~~~
+  server-name: "[dev] hello world ~~~"
 

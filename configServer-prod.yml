@@ -9,4 +9,4 @@ spring:
 
 message:
   profile: prod
-  server-name: [prod] hello world ~!~!
+  server-name: "[prod] hello world ~!~!"
