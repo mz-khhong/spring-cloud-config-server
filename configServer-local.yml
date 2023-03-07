@@ -9,4 +9,4 @@ spring:
 
 message:
   profile: local
-  server-name: "[local] hello world !!!@@"
+  server-name: "[local] hello world !!!@@##"
